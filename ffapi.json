@@ -1,0 +1,72 @@
+{
+  "name": "Freifunk Troisdorf",
+  "url": "https://freifunk-troisdorf.de",
+  "location": {
+    "city": "Troisdorf",
+    "country": "DE",
+    "lat": 50.81667,
+    "lon": 7.16667
+  },
+  "contact": {
+    "email": "kontakt@freifunk-troisdorf.de",
+    "facebook": "https://www.facebook.com/freifunktdf",
+    "twitter": "@FreifunkTDF"
+  },
+  "state": {
+    "description": "Local community",
+    "focus": [
+      "infrastructure/backbone",
+      "Public Free Wifi",
+      "Social Community Building",
+      "Free internet access"
+    ],
+    "lastchange": "2015-12-30T22:19:16.148Z"
+  },
+  "timeline": [
+    {
+      "description": "Founded in",
+      "timestamp": "2014-11-06"
+    }
+  ],
+  "feeds": [
+    {
+      "name": "Blog",
+      "category": "blog",
+      "type": "rss",
+      "url": "http://freifunk-troisdorf.de/feed/"
+    }
+  ],
+  "nodeMaps": [
+    {
+      "url": "https://map.freifunk-troisdorf.de/",
+      "interval": "1",
+      "technicalType": "meshviewer",
+      "mapType": "geographical"
+    }
+  ],
+  "techDetails": {
+    "firmware": {
+      "name": "Gluon",
+      "url": "http://images.freifunk-troisdorf.de",
+      "vpnaccess": "automatic"
+    },
+    "networks": {
+      "ipv4": [
+        {
+          "network": "10.188.0.0/16"
+        }
+      ]
+    },
+    "routing": [
+      "batman-adv"
+    ],
+    "updatemode": [
+      "autoupdate"
+    ],
+    "legals": [
+      "vpnnational",
+      "institutions"
+    ]
+  },
+  "api": "0.4.11"
+}
