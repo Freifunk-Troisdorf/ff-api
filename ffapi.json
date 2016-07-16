@@ -22,7 +22,7 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2016-07-16T09:25:51.056Z"
+    "lastchange": "2016-07-16T09:37:43.136Z"
   },
   "timeline": [
     {
@@ -35,7 +35,7 @@
       "name": "Blog",
       "category": "blog",
       "type": "rss",
-      "url": "http://freifunk-troisdorf.de/feed/"
+      "url": "https://freifunk-troisdorf.de/feed/"
     }
   ],
   "nodeMaps": [
