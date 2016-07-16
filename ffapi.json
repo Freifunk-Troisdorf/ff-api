@@ -13,14 +13,16 @@
     "twitter": "@FreifunkTDF"
   },
   "state": {
+    "nodes": 200,
     "description": "Local community",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
       "Social Community Building",
+      "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2015-12-30T22:19:16.148Z"
+    "lastchange": "2016-07-16T09:25:51.056Z"
   },
   "timeline": [
     {
@@ -44,6 +46,22 @@
       "mapType": "geographical"
     }
   ],
+  "support": {
+    "club": {
+      "name": "Freifunk Rheinland e.V.",
+      "street": "Eickener Straße 83",
+      "zip": "41061",
+      "city": "Mönchengladbach",
+      "url": "https://www.freifunk-rheinland.net"
+    },
+    "donations": {
+      "bankaccount": {
+        "IBAN": "DE16430609674044542600",
+        "BIC": "GENODEM1GLS",
+        "usage": "Freifunk Troisdorf"
+      }
+    }
+  },
   "techDetails": {
     "firmware": {
       "name": "Gluon",
@@ -68,5 +86,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.11"
+  "api": "0.4.13"
 }
