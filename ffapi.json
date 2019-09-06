@@ -5,7 +5,12 @@
     "city": "Troisdorf",
     "country": "DE",
     "lat": 50.81667,
-    "lon": 7.16667
+    "lon": 7.16667,
+    "address": {
+      "Name": "AWO Troisdorf Mitte",
+      "Street": "Wilhelm-Hamacher-Platz 12",
+      "Zipcode": "53840"
+    }
   },
   "contact": {
     "email": "kontakt@freifunk-troisdorf.de",
@@ -13,8 +18,8 @@
     "twitter": "@FreifunkTDF"
   },
   "state": {
-    "nodes": 200,
-    "description": "Local community",
+    "nodes": 300,
+    "description": "Local community in Troisdorf\r\nBelongs to the Freifunk Rheinland e.V. and the Freifunk Rhein-Sieg e.V.",
     "focus": [
       "infrastructure/backbone",
       "Public Free Wifi",
@@ -22,20 +27,12 @@
       "Local services and content",
       "Free internet access"
     ],
-    "lastchange": "2016-07-16T09:37:43.136Z"
+    "lastchange": "2019-09-06T17:52:08.672Z"
   },
   "timeline": [
     {
       "description": "Founded in",
       "timestamp": "2014-11-06"
-    }
-  ],
-  "feeds": [
-    {
-      "name": "Blog",
-      "category": "blog",
-      "type": "rss",
-      "url": "https://freifunk-troisdorf.de/feed/"
     }
   ],
   "nodeMaps": [
@@ -48,16 +45,21 @@
   ],
   "support": {
     "club": {
-      "name": "Freifunk Rheinland e.V.",
-      "street": "Eickener Straße 83",
-      "zip": "41061",
-      "city": "Mönchengladbach",
-      "url": "https://www.freifunk-rheinland.net"
+      "name": "Freifunk Rhein-Sieg e.V.",
+      "street": "Wilhelm-Hamacher-Platz 12",
+      "zip": "53840",
+      "city": "Troisdorf",
+      "url": "https://www.freifunk-rhein-sieg.net",
+      "email": "kontakt@freifunk-rhein-sieg.net",
+      "board": [
+        "Andreas Groß",
+        "Stefan Hoffmann"
+      ]
     },
     "donations": {
       "bankaccount": {
-        "IBAN": "DE16430609674044542600",
-        "BIC": "GENODEM1GLS",
+        "IBAN": "DE45 7002 2200 0020 3678 81",
+        "BIC": "FDDODEMMXXX",
         "usage": "Freifunk Troisdorf"
       }
     }
@@ -79,6 +81,7 @@
       "batman-adv"
     ],
     "updatemode": [
+      "manual",
       "autoupdate"
     ],
     "legals": [
@@ -86,5 +89,5 @@
       "institutions"
     ]
   },
-  "api": "0.4.13"
+  "api": "0.4.14"
 }
